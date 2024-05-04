@@ -1,0 +1,56 @@
+.confirm-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.confirm-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6b6363;
+}
+
+.form__group {
+    margin-bottom: 5px;
+}
+
+.form__group-title {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form__group-title table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form__group-title table th,
+.form__group-title table td {
+    border: 1px solid #6b6363;
+    padding: 8px;
+    color: #6b6363;
+}
+
+.form__button {
+    display: inline-block;
+    margin: 20px 20px auto 0;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #6b6363;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form__button-submit2 {
+    color: #6b6363;
+    background:#fff;
+}
+

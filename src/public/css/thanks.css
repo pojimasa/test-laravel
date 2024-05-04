@@ -1,0 +1,50 @@
+.thanks__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 500px;
+    display: flex;
+        flex-direction: column;
+        /* 子要素を縦方向に配置 */
+        justify-content: center;
+        /* 子要素を縦方向に中央揃え */
+        align-items: center;
+        /* 子要素を横方向に中央揃え */
+        height: 100vh;
+        position: relative;
+}
+
+.thanks__heading {
+    margin-bottom: 40px;
+    color: #6b6363;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: #6b6363;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.thanks__content::after {
+    content: 'Thank you';
+    margin-bottom: 40px;
+    color: rgba(107, 99, 99, 0.2);
+    /* Thank you の文字の色と透明度を指定 */
+    font-size: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    /* テキストを改行しないように設定 */
+}

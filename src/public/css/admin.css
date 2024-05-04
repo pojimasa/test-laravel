@@ -1,0 +1,61 @@
+.admin-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.admin-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6b6363;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    min-height: 300px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: calc(33.33% - 10px);
+        /* 3つの要素を横並びにするために幅を調整 */
+    margin-right: 10px;
+}
+
+.form__group:last-child {
+    margin-right: 0;
+    /* 最後の要素には右側のマージンを適用しない */
+}
+
+.form__button {
+    display: inline-block;
+    margin: 20px 20px auto 0;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #6b6363;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form__button-submit2 {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #d9d1cc;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
